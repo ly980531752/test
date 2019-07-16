@@ -1,9 +1,6 @@
 ﻿// test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-// ConsoleApplication1.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -44,6 +41,8 @@ void pout(vector<int> num)
 
 int main()
 {
+	std::cout << "Hello World!\n";
+
 	vector<int> num{ 5, 7, 4, 3, 2, 1, 6 };
 
 	pout(num);
@@ -51,5 +50,6 @@ int main()
 	pout(num);
 
 	std::cout << "Hello World!\n";
+
 	return 0;
 }
